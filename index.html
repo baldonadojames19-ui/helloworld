@@ -1,0 +1,54 @@
+
+<?php
+$name = "Welcome to My First Website";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hello World</title>
+
+    <style>
+        body {
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        .box {
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px #cccccc;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: #555555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>HELLO WORLD!</h1>
+
+        <p><?php echo $name; ?></p>
+
+        <p>Created with PHP, HTML, CSS and XAMPP.</p>
+
+    </div>
+
+</body>
+</html>
